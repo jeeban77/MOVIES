@@ -1,0 +1,94 @@
+*{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: calibri;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
+nav{
+  background: white;
+  height: 80px;
+  width: 100%;
+}
+nav.logo{
+  color: gray;
+  font-size: 35px;
+  font-family: calibri;
+}
+label.logo{
+  color: black;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 80px;
+  padding: 0 70px;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+  padding: 0 40px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 30px;
+  
+}
+nav ul li a{
+  color: gray;
+  font-size: 17px;
+
+}
+
+/* cover */
+#cover{
+  color: whitesmoke;
+  font-size: 15px;
+  font-family: calibri;
+  line-height: 15px;
+  text-align: right;
+  background-image: url(../images/cover.jpg);
+  height: 710px;
+  background-origin: centre;
+  background-size: cover;
+}
+
+  /* posters-popular_movies */
+  *{
+    box-sizing: border-box;
+  }
+
+  #row1{
+    background-color: white;
+    color: gray;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+
+  #row2{
+    background-color: white;
+    color: gray;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-left: 70px;
+  }
+
+  #row_posters1{
+    display: flex;
+    justify-content: ;
+  }
+ 
+  
+#copyright{
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+  line-height: 40px;
+}
+
+
